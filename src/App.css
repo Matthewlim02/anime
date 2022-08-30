@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #313340;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+#navButtons {
+  color: aliceblue;
+}
+
+#mainNav {
+  padding-bottom: 0.7%;
+}
+
+#navUL {
+  margin-left: 1.5rem;
+}
+
+#enTitle {
+  color: white;
+}
+
+#jpTitle {
+  color: white;
+}
+
+.container {
+  clear: both;
+  background-color:#3a3d4d;
+  padding:25px 25px 30px 25px;
+  border-radius: 1rem;
+  border:2px solid black;
+  display:flex;
+  flex-direction: column;
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin: 600px 50px 200px 350px;
+  color: white;
+  font-family: Roboto, san-serif;
+  box-shadow: 0px 0 5px rgb(112, 105, 214);
+  
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.bttn {
+  grid-column: span 1;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 1rem;
+  background-color: #f6f6f6;
+  padding: .5rem 1rem;
+  font-family: Lato, sans-serif;
+  border:2px solid;
+  transition: color 0.18s, border-color 0.18s, transform 0.18s, box-shadow;
+}
+
+.bttn:hover {
+  background-color: #d9d9d9;
+  border-color: rgb(112, 105, 214);
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(112, 105, 214);
+  transform: translateY(-0.25em);
+  color:rgb(112, 105, 214);
+  
+}
+
+#headerBackground {
+  height: 550px;
+  width:100%;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+  bottom: 8.6px;
+}
+
+.intro {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 150px;
+  font-family: Roboto, san-serif;
+
+}
+
