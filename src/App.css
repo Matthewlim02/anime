@@ -29,7 +29,7 @@ body {
   color: white;
 }
 
-.container {
+.container{
   clear: both;
   background-color:#3a3d4d;
   padding:25px 25px 30px 25px;
@@ -40,25 +40,28 @@ body {
   max-width: 400px;
   justify-content: center;
   align-items: center;
-  margin: 600px 50px 200px 350px;
+  margin-top: 50rem;
+  margin-bottom: 1.5rem;
   color: white;
   font-family: Roboto, san-serif;
   box-shadow: 0px 0 5px rgb(112, 105, 214);
   
 }
 
-.form {
+.form{
   display: grid;
   grid-template-columns: auto auto auto auto;
   row-gap: 1rem;
   column-gap: 1rem;
 }
 
-.title {
+.title{
   text-align: center;
 }
 
-.bttn {
+
+
+.btn{
   grid-column: span 1;
   border: 1px solid black;
   color: black;
@@ -72,7 +75,7 @@ body {
   transition: color 0.18s, border-color 0.18s, transform 0.18s, box-shadow;
 }
 
-.bttn:hover {
+.btn:hover{
   background-color: #d9d9d9;
   border-color: rgb(112, 105, 214);
   box-shadow: 0 0.5em 0.5em -0.4em rgb(112, 105, 214);
@@ -81,7 +84,7 @@ body {
   
 }
 
-#headerBackground {
+.headerbackground{
   height: 550px;
   width:100%;
   overflow: hidden;
@@ -90,7 +93,7 @@ body {
   bottom: 8.6px;
 }
 
-.intro {
+.intro{
   text-align: center;
   color: white;
   position: relative;
@@ -98,4 +101,3 @@ body {
   font-family: Roboto, san-serif;
 
 }
-
